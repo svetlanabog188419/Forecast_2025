@@ -1,35 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="design/index.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="design/index.css" />
     <title>Meteo App</title>
-</head>
-<body> 
+  </head>
+  <body>
     <div class="weather-app">
-<header> 
-    <form>
-    <input type="search" placeholder="Enter a city..." class ="search-form-input"     required />
-    <input type="submit" value="Search" class="search-form-button"  />
-   </form>
-</header>
-    <main>
-    <div class="weather-app-data">
-    <h1 class="weather-app-city" >Madrid</h1>
-    <p class = "weather-app-detailes">
-    Tuesday 20:06, clear sky <br/>
-    Humidity: 89%, Wind: 2.57km/h 
-    </p>
-     
-    <div>🌤 5°C</div>
-</div>
-    </main>
-    <footer>
-        This project was coded by <a href="https://github.com/svetlanabog188419" target="_blank"> Svetlana Bog</a>, is
-        <a href="https://github.com/svetlanabog188419/Forecast_2025" target="_blank"> open-source on Github </a> and hosted 
-        <a href="https://super1884.netlify.app/" target ="_blank"> on Netlify</a> 
-    </footer>
-</div>
-</body>
+      <header>
+        <form class="search-form">
+          <input
+            type="search"
+            placeholder="Enter a city.."
+            required
+            class="search-form-input"
+          />
+          <input type="submit" value="Search" class="search-form-button" />
+        </form>
+      </header>
+      <main>
+        <div class="weather-app-data">
+          <div>
+            <h1 class="weather-app-city">Barcelona</h1>
+            <p class="weather-app-details">
+              Tuesday 14:49, clear sun
+              <br />
+              Humidity: <strong>60%</strong>, Wind: <strong>2.13km/h</strong>
+            </p>
+          </div>
+          <div class="weather-app-temperature-container">
+            <div class="weather-app-icon">🌞</div>
+            <div class="weather-app-temperature">16</div>
+            <div class="weatehr-app-unit">°C</div>
+          </div>
+        </div>
+      </main>
+
+      <footer>
+        This project was coded by
+        <a href="https://github.com/matthieua/" target="_blank"> Svetlana Bog</a>,
+        is
+        <a href="https://github.com/matthieua/meteo" target="_blank"
+          >open-sourced on GitHub</a
+        >
+        and
+        <a href="https://meteo-shecodes-app.netlify.app/" target="_blank"
+          >hosted on Netlify</a
+        >
+      </footer>
+    </div>
+  </body>
 </html>
+
